@@ -1,0 +1,22 @@
+.content {
+    background-color: #F1F1F1;
+}
+
+.content__container-link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #02535f;
+    text-decoration: underline;
+}
+
+.content__container li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.content__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}

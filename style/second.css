@@ -1,0 +1,19 @@
+.figure:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.figure img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.second__desk {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.second__desk:not(:last-child) {
+    margin-bottom: 30px;
+}

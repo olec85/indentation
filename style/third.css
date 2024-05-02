@@ -1,0 +1,17 @@
+
+.third__desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+/* .third__desk:not(:last-child) {
+    margin-bottom: 30px;
+} */
+
+.figure__img img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
