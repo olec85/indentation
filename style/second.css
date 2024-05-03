@@ -5,7 +5,7 @@
 .figure img {
     display: block;
     margin: 0 auto;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .second__desk {
@@ -24,7 +24,6 @@
     line-height: 120%;
     color: #5e5e5e;
     padding: 15px 30px;
-    
 }
 
 .figure__border {

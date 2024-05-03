@@ -16,9 +16,12 @@
     font-size: 20px;
     line-height: 120%;
     color: #000;
+}
+
+.indentation__desk:not(:last-child) {
     margin-bottom: 30px;
 }
 
-/* .indentation__desk:not(:last-child) {
-    margin-bottom: 30px;
-} */
+.indentation__container {
+    margin-bottom: 50px;
+}
