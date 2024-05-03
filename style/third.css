@@ -15,3 +15,11 @@
     margin: 0 auto;
     margin-bottom: 30px;
 }
+
+.figure__third img:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.figure__first img {
+    margin-bottom: 30px;
+}

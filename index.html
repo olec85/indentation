@@ -63,13 +63,13 @@
             <h3 class="title">Отступ задается последнему возможному элементу в DOM-дереве</h3>
             <figure class="figure">
                 <figcaption class="second__desk">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:</figcaption>
-                <img src="./image/image 3.png" alt="">
-                <img src="./image/image 4.png" alt="">
+                <img class="second__desk-img" src="./image/image 3.png" alt="маржин задается между соседними элементами dom DOM-дерева">
+                <img src="./image/image 4.png" alt="пример с бутербродами">
             </figure>
 
             <figure class="figure">
                 <figcaption class="second__desk">Отступ делают за счёт соседних элементов, а не дочерних:</figcaption>
-                <img src="./image/image 5.png" alt="">
+                <img src="./image/image 5.png" alt="отсупы делают за счет соседних элементов">
                 <figcaption class="second__desk-border figure__border"><strong>ВАЖНО</strong>: здесь .list-item — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</figcaption>
             </figure>
 
@@ -77,12 +77,12 @@
 
             <figure class="figure">
                 <figcaption class="second__desk">Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.</figcaption>
-                <img src="./image/image 6.png" alt="">
+                <img src="./image/image 6.png" alt=" пример более сложная вложенность">
             </figure>
 
             <figure class="figure">
                 <figcaption class="second__desk">В случае с заголовком, если ему необходим отступ сверху, последним элементом будет section. Именно для него задается padding-top, а не div с классом container. Свойства margin, которые стоят по умолчанию необходимо обнулить.</figcaption>
-                <img src="./image/image 7.png" alt="">
+                <img src="./image/image 7.png" alt="необходимо обнулятьсвойства маржин которые по умолчанию">
             </figure>
             <p class="indentation__desk">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.</p>
         </div>
@@ -94,31 +94,31 @@
             <p class="indentation__desk">Для наглядности возьмём наш предыдущий пример с рецептами</p>
             <p class="indentation__desk">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.</p>
 
-            <figure class="figure">
-                <img src="./image/image 8.png" alt="">
+            <figure class="figure figure__first">
+                <img src="./image/image 8.png" alt=" последний margin обнуляется, а нижний отступ задаётся через">
                 <figcaption class="third__desc">В соответствии со вторым принципом: последний margin обнуляется, а нижний отступ задаётся через padding для section. Я чаще всего задаю padding для секции с обоих сторон, если расстояние между секциями 100px задаю секциям padding-top:50px и padding-bottom:50px.</figcaption>
             </figure>
 
             <div class="figure__img">
-                <img src="./image/image 9.png" alt="">
-                <img src="./image/image 10.png" alt="">
+                <img src="./image/image 9.png" alt=" последний margin обнуляется, а нижний отступ задаётся через">
+                <img src="./image/image 10.png" alt=" последний margin обнуляется, а нижний отступ задаётся через">
             </div>
 
-            <figure class="figure">
+            <figure class="figure figure__third">
                 <figcaption class="third__desc">Для большего понимания рассмотрим другой пример, который часто встречается на практике:</figcaption>
-                <img src="./image/image 11.png" alt="">
-                <img src="./image/image 12.png" alt="">
+                <img src="./image/image 11.png" alt="другие примеры маржин">
+                <img src="./image/image 12.png" alt="другие примеры маржин">
             </figure>
 
             <figure class="figure">
                 <figcaption class="third__desc">Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:</figcaption>
-                <img src="./image/image 13.png" alt="">
+                <img src="./image/image 13.png" alt="Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:">
             </figure>
 
             <figure class="figure">
                 <figcaption class="third__desc">Советую использовать псевдоклассы :last-child чаще других, например так:
                 </figcaption>
-                <img src="./image/image 14.png" alt="">
+                <img src="./image/image 14.png" alt="Советую использовать псевдоклассы :last-child чаще других">
             </figure>
         </div>
     </section>
