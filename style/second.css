@@ -31,6 +31,6 @@
     border-top: 0;
 }
 
-.second__desk-img {
+.figure__second img:not(:last-child) {
     margin-bottom: 30px;
 }
